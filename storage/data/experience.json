@@ -1,0 +1,18 @@
+{
+    "exp" : {
+      "Name": "Laravel Devolopment",
+      "Duration": "2-3 years experience in this feild",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero nihil, praesentium maiores minima sunt delectus aspernatur omnis aut velit officia, distinctio necessitatibus non sint voluptatum dolore dolores obcaecati vel!"
+       },
+    "exp2" : {
+        "Name": "Android Devolopment",
+        "Duration": "2-3 years experience in this feild",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero nihil, praesentium maiores minima sunt delectus aspernatur omnis aut velit officia, distinctio necessitatibus non sint voluptatum dolore dolores obcaecati vel!"
+         },
+    "exp3" : {
+            "Name": "fultter Devolopment",
+            "Duration": "2-3 years experience in this feild",
+            "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero nihil, praesentium maiores minima sunt delectus aspernatur omnis aut velit officia, distinctio necessitatibus non sint voluptatum dolore dolores obcaecati vel!"
+        }
+
+  }
