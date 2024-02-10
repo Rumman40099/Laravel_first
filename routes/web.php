@@ -1,10 +1,11 @@
 <?php
 
-use App\Http\Controllers\Experiencecontroller;
-use App\Http\Controllers\Homepagecontroller;
-use App\Http\Controllers\Projectcontroller;
-use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ShowController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\Projectcontroller;
+use App\Http\Controllers\Homepagecontroller;
+use App\Http\Controllers\Experiencecontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +19,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get("/home", [Homepagecontroller::class, 'index']);
+Route::get("/", [Homepagecontroller::class, 'index']);
 Route::get("/projects",[Projectcontroller::class, 'index'] );
+Route::post("/projects",[Projectcontroller::class,'registerpost'])->name('projects');
+
 Route::get("/work_experience",[Experiencecontroller::class, 'index'] );
+Route::get("/blog",[ShowController::class, 'index'] );
 
 
 

@@ -46,9 +46,10 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="/home">Home</a>
+        <a href="/">Home</a>
         <a href="/projects">Projects</a>
         <a href="/work_experience">Work Experience</a>
+        <a href="/blog">Blog</a>
     </div>
 
     <header>
